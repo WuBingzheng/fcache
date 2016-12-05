@@ -6,7 +6,7 @@ based on file, suitable for CDN especially.
 `fcache` is a bit like `memcache`, with 2 main difference:
 
 * HTTP protocol, more compatible with HTTP proxy and server;
-* based on file, larger space.
+* based on file, normal file or block device, e.g. /dev/sda1.
 
 Compared to other HTTP caches (e.g. `Squid` and `Varnish`), `fcache`
 is much more lightweight and easy to use.
